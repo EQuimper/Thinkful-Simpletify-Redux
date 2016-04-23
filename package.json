@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "server": "nodemon server.js"
   },
   "keywords": [
     "react",
@@ -16,9 +17,11 @@
   "author": "Emanuel Quimper",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.13.4",
     "lodash": "^4.11.1",
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "request": "^2.72.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.7",
